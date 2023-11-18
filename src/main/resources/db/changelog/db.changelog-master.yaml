@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+     file: classpath:/db/changelog/changes/add-initial-schema.sql
+  - include:
+      file: classpath:/db/changelog/changes/add-test-data.sql
